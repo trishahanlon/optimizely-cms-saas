@@ -1,4 +1,5 @@
-import { createOptimizelyOneApi } from '@remkoj/optimizely-one-nextjs/server';
+//import { createOptimizelyOneApi } from '@remkoj/optimizely-one-nextjs/server';
+import { createOptimizelyOneApi } from '@remkoj/optimizely-one-nextjs/api';
 
 const handler = createOptimizelyOneApi()
 
